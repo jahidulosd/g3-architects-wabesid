@@ -6,4 +6,52 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}  
+/* sher section */
+.button-primary{
+    
+}
+/* Header section */
+header{
+    background:#FF900E;
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 } 
+.nav-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+
+}
+
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav li a{
+    color: #424242;
+}
+
+/* banar section */
+.baner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.baner-title{
+    font-size: 4rem;
+    font-size: 700;
+    color: #131313;
+}
+.baner-description{
+    color: #727272;;
+}
