@@ -126,8 +126,21 @@ font-size:500;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
-
+/* Sponsers section */
+.sponsers{
+    text-align: center;
+   
+}
+.sponsers-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    gap: 40px;
+    align-items: center;
+}
+.sponsers-img-container img{
+    width: 156px;
+}
 
 
 
@@ -139,25 +152,40 @@ font-size:500;
         padding: 20px;
     }
     .teams-container,
+    .facts-card-container,
+    .sponsers-img-container,
     nav{
         flex-direction: column;
     }
     .teams-img{
         grid-template-columns: 1fr;
     }
+    
+    .facts-card-container{
+        gap: 30px;
+    } 
+    .teams-contant,
+    .facts-card-container{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
 }
+
 /* tablet or mediem debicse */
 @media screen and (min-width:576px) and (max-width:960px) {
     header{
         padding: 50px;
     }
-    nav,.teams-container{
-
+    nav,
+    .teams-container,
+    .sponsers-img-container
+    {
         flex-direction: column;
     }
-    .teams-contant{
-        padding-right: 20px;
-        padding-left: 20px;
+
+   
+    
+
 }
 
 
