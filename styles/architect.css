@@ -184,8 +184,16 @@ font-size:500;
 .sponsers-img-container img{
     width: 156px;
 }
-
-
+/* footer-section */
+.footer-container{
+    text-align: center;
+    border: 2px solid ;
+    border: 0;
+    background-color:#f0c9a0 ;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 100px 100px;
+}
 
 
 
@@ -193,6 +201,7 @@ font-size:500;
 @media screen and (max-width:576px) {
     header{
         padding: 20px;
+        
     }
     .teams-container,
     .features,
@@ -236,9 +245,6 @@ font-size:500;
     {
         flex-direction: column;
     }
-
-   
-    
 
 }
 
